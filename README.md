@@ -81,5 +81,9 @@ This tool was created by [ytax](https://github.com/ytax).
 Feel free to contribute or open issues if you encounter any bugs or have suggestions for new features.
 
 ---
+## Preview of the interface
 
+![image](https://github.com/user-attachments/assets/38d61eff-45c2-4be5-bab1-4eb7dbec2b49)
+
+---
 Enjoy checking your usernames and have fun!
