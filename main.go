@@ -33,6 +33,9 @@ func checkID(id string) bool {
 		return false
 	}
 	body := resp.String()
+	// this is essentially the same as the steam checker, however this time we're checking for a piece of html code that only exists in the valid user request
+	// this sadly this makes the checker not as fast as i'd want it to be due to the request being very large
+	// a good workaround might be to implement threading or some other form of concurrency
 	teststr := `href="https://www.pinterest.com/` + id + `/"`
 
 	return strings.Contains(body, teststr)
